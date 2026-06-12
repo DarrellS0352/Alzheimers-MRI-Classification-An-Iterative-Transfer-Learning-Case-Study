@@ -35,10 +35,10 @@ Each row below represents one experimental iteration, showing the resulting test
 | 6 | + GlobalAveragePooling2D | 0.836 | 0.70 | 0.32 | 0.01 | 0.00 |
 | 7 | + Fine-tune top 2 Inception blocks | 0.726 | 0.05 | 0.77 | 0.19 | 0.00 |
 
-![Confusion matrix for the base model](images/model1_base_confusion_matrix.png)
+![Confusion matrix for the base model](images/model1_base_confusion_matrix.png)  
 *The base model predicts almost everything as NonDementia, the same as a spam classifier saying everything is not spam and having 99% accuracy.*
 
-![Confusion matrix for the best model by AUC (GlobalAveragePooling2D)](images/model6_globalavgpool_confusion_matrix.png)
+![Confusion matrix for the best model by AUC (GlobalAveragePooling2D)](images/model6_globalavgpool_confusion_matrix.png)  
 *The best model by AUC still only gets 1 of 179 MildDementia cases right.*
 
 ## Why AUC Was Misleading
